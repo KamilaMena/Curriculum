@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: wght @ 300; 400 & family = Roboto: wght @ 100; 300; 400 & display = swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #0D1321;
+}
+
+.one{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(210,97,97);
+  background: radial-gradient(circle, rgba(210,97,97,1) 28%, rgba(199,116,131,1) 79%);
+  color: black;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.navbar__menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.navbar__menu a{
+  padding: 10px 20px;
+
+}
+
+.navbar__menu a:hover{
+  background-color: #306bac;
+  color: #0D1321;
+  transition: ease-in .3s;
+}
+
+.navbar__item{
+  list-style: none;
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+
+}
+
+/*CONTENIDO*/
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: justify;
+}
+
+h1{
+  color: white;
+  font-size: 3em;
+}
+
+span{
+  color: #A90F2B;
+}
+
+.main img{
+  width: 400px;
+}
+
+.downloadbtn{
+  padding: 10px 20px;
+  background-color: #A90F2B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.downloadbtn:hover{
+  background: white;
+  color: #A90F2B;
+  transition: ease-in .2s;
+}
+
+/* SOBRE MI */
+
+.aboutme{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+
+}
+
+.aboutme img{
+  width: 500px;
+  grid-column: 1/5;
+}
+
+.aboutme__info{
+  grid-column: 3/10;
+  padding: 1em;
+
+}
+
+.aboutme__info h2{
+  font-size: 2em;
+  color: #ce676c;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: #A90F2B ;
+  margin-top: 10px;
+  margin-bottom: 2em;
+
+}
+
+.aboutme__info p{
+  margin-bottom: 1em;
+}
+
+/*PORTAFOLIO*/
+
+/*https://replit.com/@KamilaMena*/
