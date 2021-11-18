@@ -230,7 +230,7 @@ span{
 
   .contenedor {
     width: 100%;
-    /*overflow: hidden;*/
+    overflow: hidden;
 
   }
 
@@ -245,6 +245,8 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 0;
+    background-color: indigo;
   }
 
   .slider__content:nth-child(2) {
