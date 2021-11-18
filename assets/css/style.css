@@ -26,6 +26,12 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 2em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgb(210,97,97);
+  background: radial-gradient(circle, rgba(210,97,97,1) 28%, rgba(199,116,131,1) 79%);
 }
 
 .menu {
@@ -272,6 +278,32 @@ span{
     font-weight: 300;
     text-align: justify;
     line-height: 30px;
+  }
+
+  @media screen and (max-width:900) {
+    .slider__content img {
+      width: 250px;
+    }
+
+    .slider__content div {
+      width: 40%;
+    }
+
+    .slider__content h2 {
+      font-size: 23px;
+    }
+    
+  }
+
+  @media screen and (max-width:600) {
+    .slider__content {
+      flex-direction: column-reverse;
+    }
+
+    .slider__content div {
+      width: 80%;
+    }
+    
   }
 
 /*por si pongo botones
