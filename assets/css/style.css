@@ -109,7 +109,7 @@ span{
 }
 
 .downloadbtn:hover{
-  background: white;
+  background: black;
   color: #A90F2B;
   transition: ease-in .2s;
 }
@@ -221,6 +221,7 @@ span{
   width: 70%;
 }
 
+
 .card .card__download-btn a {
   text-decoration: none;
   color: white;
@@ -237,7 +238,15 @@ span{
   .contenedor {
     width: 100%;
     overflow: hidden;
+    background-color: white;
 
+  }
+
+  .slider__title {
+    font-size: 2em;
+    color: #ce676c;
+    padding-left: 22em;
+    padding-top: 2em;
   }
 
   .slider__contenedor {

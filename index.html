@@ -1,156 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/c6120d4777.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/c6120d4777.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <nav class="navbar">
-            <a class="navbar__logo" href="#">Curriculum | Kamila</a>
-            <span class="menu">Ver menú</span>
-            <ul class="navbar__menu">
-                <li class="navbar__item"><a href="#inicio">Inicio</a></li>
-                <li class="navbar__item"><a href="#sobremi">Sobre mi</a></li>
-                <li class="navbar__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="navbar__item"><a href="#">Habilidades</a></li>
-                <li class="navbar__item"><a href="#portafolio">Portafolio</a></li>
-                <li class="navbar__item"><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <a class="navbar__logo" href="#">Curriculum | Kamila</a>
+        <span class="menu">Ver menú</span>
+        <ul class="navbar__menu">
+          <li class="navbar__item"><a href="#inicio">Inicio</a></li>
+          <li class="navbar__item"><a href="#sobremi">Sobre mi</a></li>
+          <li class="navbar__item"><a href="#portafolio">Portafolio</a></li>
+          <li class="navbar__item"><a href="#">Habilidades</a></li>
+          <li class="navbar__item"><a href="#hobbies">Hobbies</a></li>
+          <li class="navbar__item"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main id="inicio" class="main">
-        <div class="info__principal">
-            <h1>Maria <span>Kamila Mena</span> Rojas</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolor, enim fugit cum ex ut
-                cupiditate officiis velit voluptatum quae, autem soluta! Temporibus dolorem blanditiis aliquid, adipisci
-                quis vitae accusantium.</p>
-            <a download href="#">
-                <button class="downloadbtn"> Descargar Curriculum </button>
-            </a>
-        </div>
-        <figure>
-            <img src="./assets/img/foticoseño.png" alt="Seño">
-        </figure>
+      <div class="info__principal">
+        <h1>Maria <span>Kamila Mena</span> Rojas</h1>
+        <p>
+          Estudiante
+        </p>
+      </div>
+      <figure>
+        <img src="./assets/img/foticoseño.png" alt="Seño" />
+      </figure>
     </main>
 
     <div class="aboutme" id="sobremi">
-        <figure>
-            <img src="./assets/img/256.jpg" alt="pp">
-        </figure>
-        <div class="aboutme__info">
-            <h2>Sobre mí</h2>
-            <div class="divider"></div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum in dolores perferendis eos fugit,
-                repellendus aspernatur velit sequi esse, excepturi laboriosam nostrum voluptas iure hic, vel deleniti
-                nesciunt. Praesentium, cum.</p>
-        </div>
+      <figure>
+        <img src="./assets/img/256.jpg" alt="pp" />
+      </figure>
+      <div class="aboutme__info">
+        <h2>Sobre mí</h2>
+        <div class="divider"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum in
+          dolores perferendis eos fugit, repellendus aspernatur velit sequi
+          esse, excepturi laboriosam nostrum voluptas iure hic, vel deleniti
+          nesciunt. Praesentium, cum.
+        </p>
+      </div>
     </div>
 
     <div class="port" id="portafolio">
-        <div class="port__title">
-            <h2>Portafolio de proyectos</h2>
-            <div class="divider"></div>
+      <div class="port__title">
+        <h2>Portafolio de proyectos</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <figure class="card__img"></figure>
+          <div class="card__title">
+            <h2>Online</h2>
+            <p>C#, HTML, CSS Y JS</p>
+          </div>
+
+          <div class="card__download-hpl">
+            <button class="card__download-btn downloadbtn">
+              <a href="https://replit.com/@KamilaMena">Ir a replit</a>
+            </button>
+          </div>
         </div>
+        <div class="card">
+          <figure class="card__img"></figure>
+          <div class="card__title">
+            <h2>Local</h2>
+            <p>PseInt, Python, HTML, CSS, JS</p>
+          </div>
 
-        <div class="container">
-            <div class="card">
-                <figure class="card__img">
-                </figure>
-                <div class="card__title">
-                    <h2>Online</h2>
-                    <p>C#, HTML, CSS Y JS</p>
-                </div>
-
-                <div class="card__download-hpl">
-                    <button class="card__download-btn downloadbtn">
-                        <a href="https://replit.com/@KamilaMena">Ir a replit</a>
-                    </button>
-                </div>
-            </div>
-            <div class="card">
-                <figure class="card__img">
-                </figure>
-                <div class="card__title">
-                    <h2>Local</h2>
-                    <p>PseInt, Python, HTML, CSS, JS</p>
-                </div>
-
-                <div class="card__download-hpl">
-                    <button class="card__download-btn downloadbtn">
-                        <a href="./assets/docs/Proyectos - Kamila.rar" download="ProyectosKamila">Descargar zip</a>
-                    </button>
-                </div>
-            </div>
+          <div class="card__download-hpl">
+            <button class="card__download-btn downloadbtn">
+              <a
+                href="./assets/docs/Proyectos - Kamila.rar"
+                download="ProyectosKamila"
+                >Descargar zip</a
+              >
+            </button>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="contenedor" id="hobbies">
-        <div class="slider__contenedor">
-            <section class="slider__content">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic expedita tempore fugit earum ipsam dignissimos exercitationem quod ea error dicta delectus deleniti molestiae, mollitia laboriosam perspiciatis reiciendis, fugiat inventore facere.</h2>
-                </div>
-                    <figure>
-                        <img src="./assets/img/slider1.svg" alt="Imagen">
-                    </figure>
-            </section>
-            <section class="slider__content">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic expedita tempore fugit earum ipsam dignissimos exercitationem quod ea error dicta delectus deleniti molestiae, mollitia laboriosam perspiciatis reiciendis, fugiat inventore facere.</h2>
-                </div>
-                    <figure>
-                        <img src="./assets/img/slider2.svg" alt="Imagen">
-                    </figure>
-            </section>
-            <section class="slider__content">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic expedita tempore fugit earum ipsam dignissimos exercitationem quod ea error dicta delectus deleniti molestiae, mollitia laboriosam perspiciatis reiciendis, fugiat inventore facere.</h2>
-                </div>
-                    <figure>
-                        <img src="./assets/img/slider3.svg" alt="Imagen">
-                    </figure>
-            </section>
-            <section class="slider__content">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic expedita tempore fugit earum ipsam dignissimos exercitationem quod ea error dicta delectus deleniti molestiae, mollitia laboriosam perspiciatis reiciendis, fugiat inventore facere.</h2>
-                </div>
-                    <figure>
-                        <img src="./assets/img/slider1.svg" alt="Imagen">
-                    </figure>
-            </section>
-        </div>
+      <div class="slider__title">
+        <h2>Hobbies</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="slider__contenedor">
+        <section class="slider__content">
+          <div>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              expedita tempore fugit earum ipsam dignissimos exercitationem quod
+              ea error dicta delectus deleniti molestiae, mollitia laboriosam
+              perspiciatis reiciendis, fugiat inventore facere.
+            </h2>
+          </div>
+          <figure>
+            <img src="./assets/img/slider1.svg" alt="Imagen" />
+          </figure>
+        </section>
+        <section class="slider__content">
+          <div>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              expedita tempore fugit earum ipsam dignissimos exercitationem quod
+              ea error dicta delectus deleniti molestiae, mollitia laboriosam
+              perspiciatis reiciendis, fugiat inventore facere.
+            </h2>
+          </div>
+          <figure>
+            <img src="./assets/img/slider2.svg" alt="Imagen" />
+          </figure>
+        </section>
+        <section class="slider__content">
+          <div>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              expedita tempore fugit earum ipsam dignissimos exercitationem quod
+              ea error dicta delectus deleniti molestiae, mollitia laboriosam
+              perspiciatis reiciendis, fugiat inventore facere.
+            </h2>
+          </div>
+          <figure>
+            <img src="./assets/img/slider3.svg" alt="Imagen" />
+          </figure>
+        </section>
+        <section class="slider__content">
+          <div>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              expedita tempore fugit earum ipsam dignissimos exercitationem quod
+              ea error dicta delectus deleniti molestiae, mollitia laboriosam
+              perspiciatis reiciendis, fugiat inventore facere.
+            </h2>
+          </div>
+          <figure>
+            <img src="./assets/img/slider1.svg" alt="Imagen" />
+          </figure>
+        </section>
+      </div>
     </div>
 
     <footer class="footer" id="contacto">
-        <div class="footer__content">
-            <h2>¡Contáctame!</h2>
-        </div>
-        <div class="footer__social">
-            <a href="mailto:kamilaa.mena@gmail.com?Subject=Me%20interesa%20tu%20trabajo"><i
-                    class="far fa-envelope"></i></a>
-            <a href="https://api.whatsapp.com/send/?phone=573024647539&text&app_absent=0"><i
-                    class="fab fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/kamila.mena.01182"><i class="fab fa-facebook-square"></i></a>
-        </div>
-        <br>
-        <div class="footer__content">
-            <h2>Curriculum</h2>
-        </div>
-        <div class="footer__download">
-            <button class="footer__download-btn downloadbtn">
-                <a href="#">Haz click para descargar mi curriculum</a>
-            </button>
-        </div>
+      <div class="footer__content">
+        <h2>¡Contáctame!</h2>
+      </div>
+      <div class="footer__social">
+        <a
+          href="mailto:kamilaa.mena@gmail.com?Subject=Me%20interesa%20tu%20trabajo"
+          ><i class="far fa-envelope"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=573024647539&text&app_absent=0"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://www.facebook.com/kamila.mena.01182"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+      </div>
+      <br />
+      <div class="footer__content">
+        <h2>Curriculum</h2>
+      </div>
+      <div class="footer__download">
+        <button class="footer__download-btn downloadbtn">
+          <a href="#">Haz click para descargar mi curriculum</a>
+        </button>
+      </div>
     </footer>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
