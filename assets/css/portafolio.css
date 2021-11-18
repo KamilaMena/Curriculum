@@ -1,0 +1,78 @@
+/*PORTAFOLIO*/
+
+.port__title {
+    width: 100vw;
+    padding-left: 5em;
+    padding-top: 5em;
+  }
+  
+  .port__title h2 {
+    font-size: 2.5em;
+  }
+  
+  .port .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .port{
+    background: rgb(210,97,97);
+    background: radial-gradient(circle, rgba(210,97,97,1) 28%, rgba(199,116,131,1) 79%);
+    width: 100vw;
+    height: 720px;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 5em;
+    height: 350px;
+    background: rgb(172, 82, 82);
+  }
+  
+  .card__img {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/WhatsApp\ Image\ 2021-11-17\ at\ 09.25.04.jpeg);
+    background-size: cover;
+  }
+  
+  .card__title {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card__title p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .card__link-proj {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card__link-proj a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .card .card__download-btn { 
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 70%;
+  }
+  
+  
+  .card .card__download-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .card__download-hpl {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }

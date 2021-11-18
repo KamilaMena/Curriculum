@@ -1,0 +1,95 @@
+/*SLIDER*/
+
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+
+  }
+
+  .slider__title {
+    font-size: 2em;
+    color: #ce676c;
+    padding-left: 22em;
+    padding-top: 2em;
+  }
+
+  .slider__contenedor {
+    width: 100%;
+    display: flex;
+  }
+
+  .slider__content {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: indigo;
+  }
+
+  .slider__content:nth-child(2) {
+    background-color: violet;
+    color: white;
+  }
+
+  .slider__content:nth-child(3) {
+    background-color: grey;
+    color: white;
+  }
+
+  .slider__content img {
+   width: 400px;
+
+  }
+
+  .slider__content div {
+    width: 40%;
+  }
+
+  .slider__content h2 {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  @media screen and (max-width:900) {
+    .slider__content img {
+      width: 250px;
+    }
+
+    .slider__content div {
+      width: 40%;
+    }
+
+    .slider__content h2 {
+      font-size: 23px;
+    }
+    
+  }
+
+  @media screen and (max-width:600) {
+    .slider__content {
+      flex-direction: column-reverse;
+    }
+
+    .slider__content div {
+      width: 80%;
+    }
+    
+  }
+
+/*por si pongo botones
+.slider__content a {
+    color: white;
+    background: #332863;
+    width: 100px;
+    padding: 15px 0;
+    display: block;
+    text-aling: center;
+    margin-top: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+  }
+*/

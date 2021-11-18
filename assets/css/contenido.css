@@ -1,0 +1,42 @@
+/*CONTENIDO*/
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: justify;
+  }
+  
+  
+  h1{
+    color: white;
+    font-size: 3em;
+  }
+  
+  span{
+    color: #A90F2B;
+  }
+  
+  .main img{
+    width: 400px;
+  }
+  
+  .downloadbtn{
+    padding: 10px 20px;
+    background-color: #A90F2B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  
+  }
+  
+  .downloadbtn:hover{
+    background: black;
+    color: #A90F2B;
+    transition: ease-in .2s;
+  }

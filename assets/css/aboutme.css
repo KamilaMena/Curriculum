@@ -1,0 +1,40 @@
+/* SOBRE MI */
+
+.aboutme{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    background-color: white;
+  
+  }
+  
+  .aboutme img{
+    width: 500px;
+    grid-column: 1/5;
+  }
+  
+  .aboutme__info{
+    grid-column: 3/10;
+    padding: 1em;
+  
+  }
+  
+  .aboutme__info h2{
+    font-size: 2.5em;
+    color: #ce676c;
+  }
+  
+  .divider {
+    height: 4px;
+    width: 60px;
+    background-color: #A90F2B;
+    margin-top: 10px;
+    margin-bottom: 2em;
+  
+  }
+  
+  .aboutme__info p {
+    margin-bottom: 1em;
+  }
+  
