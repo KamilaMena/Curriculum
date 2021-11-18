@@ -258,7 +258,7 @@ span{
   color: aliceblue;
 }
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
   .navbar {
     display: block;
     justify-content: space-between;
@@ -298,5 +298,9 @@ span{
     padding: 1em;
     font: 2em;
     text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
-}
+}*/
