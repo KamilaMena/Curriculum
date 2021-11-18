@@ -17,17 +17,17 @@
                     Curriculum
                 </div>
                 <ul class="navbar__menu">
-                    <li class="navbar__item"><a href="#">Inicio</a></li>
-                    <li class="navbar__item"><a href="#">Sobre mi</a></li>
+                    <li class="navbar__item"><a href="#inicio">Inicio</a></li>
+                    <li class="navbar__item"><a href="#sobremi">Sobre mi</a></li>
                     <li class="navbar__item"><a href="#">Hobbies</a></li>
                     <li class="navbar__item"><a href="#">Habilidades</a></li>
                     <li class="navbar__item"><a href="#">Conocimientos</a></li>
-                    <li class="navbar__item"><a href="#">Portafolio</a></li>
-                    <li class="navbar__item"><a href="#">Contacto</a></li>
+                    <li class="navbar__item"><a href="#portafolio">Portafolio</a></li>
+                    <li class="navbar__item"><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="main">
+        <main id="inicio" class="main">
             <div class="infoprincipal">
                 <h1>Maria <span>Kamila Mena</span> Rojas</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolor, enim fugit cum ex ut cupiditate officiis velit voluptatum quae, autem soluta! Temporibus dolorem blanditiis aliquid, adipisci quis vitae accusantium.</p>
@@ -41,7 +41,7 @@
         </main>
     </div>
 
-    <div class="aboutme">
+    <div class="aboutme" id="sobremi">
         <figure>
             <img src="./assets/img/256.jpg" alt="pp">
         </figure>
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <div class="port">
+    <div class="port" id="portafolio">
         <div class="port__title">
             <h2>Portafolio de proyectos</h2>
             <div class="divider"></div>
@@ -69,9 +69,7 @@
                 
                 <div class="card__download-hpl">
                     <button class="card__download-btn downloadbtn">
-                        <a href="https://replit.com/@KamilaMena">
-                            Ir a replit
-                        </a>
+                        <a href="https://replit.com/@KamilaMena">Ir a replit</a>
                     </button>
                 </div>
             </div>
@@ -85,26 +83,31 @@
                 
                 <div class="card__download-hpl">
                     <button class="card__download-btn downloadbtn">
-                        <a href="https://replit.com/@KamilaMena">
-                            Descargar zip
-                        </a>
+                        <a href="./assets/docs/Proyectos - Kamila.rar" download="ProyectosKamila">Descargar zip</a>
                     </button>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer" id="contacto">
         <div class="footer__content">
-            <h2>¡Contactame!</h2>
+            <h2>¡Contáctame!</h2>
         </div>
         <div class="footer__social">
             <a href="mailto:kamilaa.mena@gmail.com?Subject=Me%20interesa%20tu%20trabajo"><i class="far fa-envelope"></i></a>
             <a href="https://api.whatsapp.com/send/?phone=573024647539&text&app_absent=0"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.facebook.com/kamila.mena.01182"><i class="fab fa-facebook-square"></i></a>
-            
         </div>
-    </footer>
-    
+        <br>
+        <div class="footer__content">
+            <h2>Curriculum</h2>
+        </div>
+        <div class="footer__download">
+            <button class="footer__download-btn downloadbtn">
+                <a href="#">Haz click para descargar mi curriculum</a>
+            </button>
+        </div>
+    </footer> 
 </body>
 </html>
