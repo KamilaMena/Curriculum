@@ -1,10 +1,14 @@
 /*SLIDER*/
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 .contenedor {
     width: 100%;
     overflow: hidden;
     background: rgb(42,111,151);
     background: radial-gradient(circle, rgba(42,111,151,1) 29%, rgba(97,165,194,1) 100%);
+    font-family: 'Concert One', cursive;
   }
 
   .slider__title {
@@ -12,6 +16,7 @@
     color: white;
     padding-left: 22em;
     padding-top: 2em;
+    font-family: 'Karla', sans-serif;
   }
 
   .slider__contenedor {
@@ -19,40 +24,71 @@
     display: flex;
   }
 
+  .slider__content img {
+    width: 450px;
+ 
+   }
+ 
+  .slider__content div {
+    width: 40%;
+  }
+ 
+  .slider__content h2 {
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    font-size: 3.5em;
+    color: white;
+    letter-spacing: 10px;
+    line-height: 150%;
+  }
+   
   .slider__content {
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-color: indigo;
   }
 
-  .slider__content:nth-child(2) {
-    background-color: violet;
+/*  .slider__content:nth-child(2) {
+    background-color: #89C2D9;
     color: white;
   }
 
   .slider__content:nth-child(3) {
-    background-color: grey;
+    background-color: #61A5C2;
     color: white;
   }
 
-  .slider__content img {
-   width: 400px;
-
+  .slider__content:nth-child(4) {
+    background-color: #468FAF;
+    color: white;
   }
 
-  .slider__content div {
-    width: 40%;
+  .slider__content:nth-child(5) {
+    background-color: #2C7DA0;
+    color: white;
   }
 
-  .slider__content h2 {
-    font-weight: 300;
-    text-align: justify;
-    line-height: 30px;
+  .slider__content:nth-child(6) {
+    background-color: #2A6F97;
+    color: white;
   }
+
+  .slider__content:nth-child(7) {
+    background-color: #015FA2;
+    color: white;
+  }
+
+  .slider__content:nth-child(8) {
+    background-color: #A9D6E5;
+    color: white;
+  }*/
+
+
+ 
 
   @media screen and (max-width:900) {
     .slider__content img {

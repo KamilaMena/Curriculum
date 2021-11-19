@@ -27,7 +27,7 @@
 }
 
 .porcentaje__card {
-    padding: 3em;
+    padding: 4em;
 }
 
 .porcentaje__contenedor .porcentaje__card {
@@ -154,7 +154,7 @@ svg circle:nth-child(2){
 }
 
 .porcentaje__card:nth-child(4) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 50)/100);
+    stroke-dashoffset: calc(440 - (440 * 30)/100);
     stroke: #013A63;
 }
 
