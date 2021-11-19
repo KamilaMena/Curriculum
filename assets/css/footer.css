@@ -1,17 +1,7 @@
 /*FOOTER*/
 
-/*.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    background-color: azure;
-    text-decoration: none;
-    
-  
-  }*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap');
+
 
   footer {
     width: 100%;
@@ -33,7 +23,11 @@
     display: flex;
     flex-direction: column;
     padding: 40;
-    margin-right: 25em;
+    margin-right: 20em;
+  }
+
+  .footer__social p {
+    font-family: 'Karla', sans-serif;
   }
 
   .footer__contenedor h2 {
