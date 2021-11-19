@@ -20,9 +20,40 @@
     color: #A90F2B;
   }
   
+  .info__principal{
+    animation: move_vector2 6s ease-in-out infinite;
+  }
+
+ /* @keyframes move_vector2 {
+    0%{
+      transform: translateY(2px);
+    }
+    25%{
+      transform: translateY(-2px);
+    }
+    100%{
+      transform: translateY(2px);
+    }
+  }*/
+
   .main img{
     width: 400px;
+    /*animation: move_vector 6s ease-in-out infinite;*/
   }
+
+  @keyframes move_vector {
+    0%{
+      transform: translateY(2px);
+    }
+    25%{
+      transform: translateY(-2px);
+    }
+    100%{
+      transform: translateY(2px);
+    }
+  }
+
+
   
   .downloadbtn{
     padding: 10px 20px;
