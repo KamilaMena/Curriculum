@@ -6,21 +6,28 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 200px;
+    height: auto;
     background-color: azure;
     text-decoration: none;
+    
   
   }
   
   .footer__content h2, .footer__social i{
     font-size: 2em;
+    padding: 0 20px;
+    margin-top: 40px;
   }
   
+  .footer__content {
+    float: right;
+  }
+
   .footer__social {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 300px;
-    margin-top: 1em;
+    float: left;
   
   }
   
@@ -28,7 +35,13 @@
     text-decoration: none;
     color: aliceblue;
   }
+
+  footer .footer__title {
+    color: black;
+  }
   
+
+
   /*@media only screen and (max-width: 480px) {
     .navbar {
       display: block;
