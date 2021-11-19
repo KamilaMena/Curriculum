@@ -1,0 +1,144 @@
+.porcentaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: white;
+}
+
+.porcentaje__contenedor {
+    position: relative;
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.porcentaje__contenedor .porcentaje__card {
+    position: relative;
+    width: 250px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 30px;
+}
+
+.porcentaje__contenedor .porcentaje__card:hover {
+    transition: translateY(-10px);
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+}
+
+.porcentaje__contenedor .porcentaje__card::before {
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: -50;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.porc {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #fff;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.porc .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /*font-size: 40%;*/
+
+}
+
+.porc .number h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.porcentaje__card:hover .porc .number h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.porc .number .sp h2 {
+    color: rgb(0, 0, 0);
+
+}
+
+.porcentaje__lenguaje {
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 3s;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-85deg)!important;
+
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #e79595a2;
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+}
+
+/* PORCENTAJE */
+
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.porcentaje__card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke: rgb(255,0,0);
+}
+
+.porcentaje__card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke: rgb(255,0,0);
+}
+
+.porcentaje__card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke: rgb(255,0,0);
+}
+
+.porcentaje__card:nth-child(4) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke: rgb(255,0,0);
+}
