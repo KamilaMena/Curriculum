@@ -2,8 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 5vh;
     background-color: white;
+    padding-bottom: 2em;
+}
+
+.porcentaje__hlp {
+    background-color: white;
+}
+
+.porcentaje__title {
+    font-size: 1.9em;
+    color: #ce676c;
+    color: black;
+    padding-left: 22em;
+    padding-top: 2em;
 }
 
 .porcentaje__contenedor {
@@ -13,6 +26,10 @@
     justify-content: space-around;
 }
 
+.porcentaje__card {
+    padding: 3em;
+}
+
 .porcentaje__contenedor .porcentaje__card {
     position: relative;
     width: 250px;
@@ -20,12 +37,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 330px;
+    height: 300px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 21px;
     text-align: center;
-    transition: 0.5s;
-    margin: 30px;
+    transition: 0.7s;
+    margin: 0 30px;
 }
 
 .porcentaje__contenedor .porcentaje__card:hover {
@@ -66,8 +83,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    /*font-size: 40%;*/
-
 }
 
 .porc .number h2 {
@@ -124,21 +139,26 @@ svg circle:nth-child(2){
 }
 
 .porcentaje__card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke-dashoffset: calc(440 - (440 * 75)/100);
     stroke: rgb(255,0,0);
 }
 
 .porcentaje__card:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke-dashoffset: calc(440 - (440 * 50)/100);
     stroke: rgb(255,0,0);
 }
 
 .porcentaje__card:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 60)/100);
+    stroke-dashoffset: calc(440 - (440 * 20)/100);
     stroke: rgb(255,0,0);
 }
 
 .porcentaje__card:nth-child(4) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 50)/100);
+    stroke: rgb(255,0,0);
+}
+
+.porcentaje__card:nth-child(5) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 60)/100);
     stroke: rgb(255,0,0);
 }
