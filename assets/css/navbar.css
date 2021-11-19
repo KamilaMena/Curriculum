@@ -28,11 +28,11 @@
   
   .navbar__menu a{
     padding: 10px 20px;
-  
+    border-radius: 10px;
   }
   
   .navbar__menu a:hover{
-    background-color: #A90F2B;
+    background-color: #2A6F97;
     color: white;
     transition: ease-in .3s;
   }

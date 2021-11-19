@@ -13,8 +13,8 @@
 
 .porcentaje__title {
     font-size: 1.9em;
-    color: #ce676c;
-    color: black;
+    color: #468FAF;
+    color: #2C7DA0;
     padding-left: 22em;
     padding-top: 2em;
 }
@@ -125,7 +125,7 @@ svg circle {
     width: 100%;
     height: 100%;
     fill: none;
-    stroke: #e79595a2;
+    stroke: #89C2D9;
     stroke-width: 10;
     stroke-linecap: round !important;
     transform: translate(5px, 5px);
@@ -140,25 +140,25 @@ svg circle:nth-child(2){
 
 .porcentaje__card:nth-child(1) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 75)/100);
-    stroke: rgb(255,0,0);
+    stroke: #013A63;
 }
 
 .porcentaje__card:nth-child(2) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 50)/100);
-    stroke: rgb(255,0,0);
+    stroke: #013A63;
 }
 
 .porcentaje__card:nth-child(3) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 20)/100);
-    stroke: rgb(255,0,0);
+    stroke: #013A63;
 }
 
 .porcentaje__card:nth-child(4) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 50)/100);
-    stroke: rgb(255,0,0);
+    stroke: #013A63;
 }
 
 .porcentaje__card:nth-child(5) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 60)/100);
-    stroke: rgb(255,0,0);
+    stroke: #013A63;
 }
