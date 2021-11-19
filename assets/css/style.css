@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: wght @ 300; 400 & family = Roboto: wght @ 100; 300; 400 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap');
 @import "./navbar.css";
 @import "./contenido.css";
 @import "./aboutme.css";
@@ -8,6 +8,7 @@
 @import "./habilidades.css";
 
 
+
 *{
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   background: rgb(42,111,151);
   background: radial-gradient(circle, rgba(42,111,151,1) 29%, rgba(97,165,194,1) 100%);
 }
