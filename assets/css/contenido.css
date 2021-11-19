@@ -39,4 +39,5 @@
     background: black;
     color: #A90F2B;
     transition: ease-in .2s;
+    opacity: 0.8;
   }
