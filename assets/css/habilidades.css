@@ -63,6 +63,24 @@
     z-index: 1;
 }
 
+.porcentaje__card {
+
+    animation: move_vector3 6s ease-in-out infinite;
+}
+
+ @keyframes move_vector3 {
+    0%{
+      transform: translateY(10px);
+    }
+    25%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(10px);
+    }
+  }
+
+
 .porc {
     position: relative;
     width: 150px;
