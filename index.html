@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script
-      src="https://kit.fontawesome.com/c6120d4777.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="shortcut icon" href="assets/img/icono3.png">
+    <script src="https://kit.fontawesome.com/c6120d4777.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum</title>
+    <title>Curriculum | Kamila Mena</title>
   </head>
 
   <body>
     <header id="header">
       <nav class="navbar">
         <a class="navbar__logo" href="#">Curriculum | Kamila Mena</a>
-        <span class="menu">Ver menú</span>
         <ul class="navbar__menu">
           <li class="navbar__item"><a href="#inicio">Inicio</a></li>
           <li class="navbar__item"><a href="#sobremi">Sobre mi</a></li>
@@ -32,7 +30,7 @@
     <main id="inicio" class="main">
       <div class="info__principal">
         <h1>Maria <span>Kamila Mena</span> Rojas</h1>
-        <p>Estudiante</p>
+        <p>Auxiliar en Desarrollo de Software</p>
       </div>
       <figure>
         <img src="./assets/img/Foto1_sinfondo.png" alt="Seño" />
@@ -41,23 +39,21 @@
 
     <div class="aboutme" id="sobremi">
       <figure>
-        <img src="./assets/img/256.jpg" alt="pp" />
+        <img src="./assets/img/prueba3.jpeg" alt="pp" />
       </figure>
       <div class="aboutme__info">
-        <h2>Sobre mí</h2>
-        <div class="divider"></div>
+        <h2 data-aos="fade-up" data-aos-duration="1500">Sobre mí</h2>
+        <div class="divider" data-aos="fade-up" data-aos-duration="1500"></div>
         <p>
-          Soy auxiliar en desarrollo de software. Tengo experiencia en el diseño
-          y codificación de páginas web. También manejo lógica de Python, C# y
-          bases de datos con MySQL y php.
+          Soy auxiliar en desarrollo de software. Tengo experiencia en el diseño y codificación de páginas web. También manejo lógica de Python, C# y bases de datos con MySQL y php. He participado en eventos, como: "Bootcamp: Movilidad y medio ambiente 2021". Soy muy buena trabajando en equipo, tomo con facilidad el liderazgo y soy muy disciplinada a la hora de querer cumplir mis objetivos.
         </p>
       </div>
     </div>
 
     <div class="port" id="portafolio">
       <div class="port__title">
-        <h2>Portafolio de proyectos</h2>
-        <div class="divider"></div>
+        <h2 data-aos="fade-up" data-aos-duration="1500">Portafolio de proyectos</h2>
+        <div class="divider" data-aos="fade-up" data-aos-duration="1500"></div>
       </div>
 
       <div class="container">
@@ -97,8 +93,8 @@
     
     <div class="porcentaje__hlp" id="habilidades">
       <div class="porcentaje__title">
-        <h2>Habilidades</h2>
-        <div class="divider"></div>
+        <h2 data-aos="fade-up" data-aos-duration="1500">Habilidades</h2>
+        <div class="divider" data-aos="fade-up" data-aos-duration="1500"></div>
       </div>
       <div class="porcentaje">
         <div class="porcentaje__contenedor">
@@ -182,8 +178,8 @@
 
     <div class="contenedor" id="hobbies">
       <div class="slider__title">
-        <h2>Hobbies</h2>
-        <div class="divider"></div>
+        <h2 data-aos="fade-up" data-aos-duration="1500">Hobbies</h2>
+        <div class="divider" data-aos="fade-up" data-aos-duration="1500"></div>
       </div>
       <div class="slider__contenedor">
        
@@ -289,21 +285,20 @@
     <footer class="footer" id="contacto">
       <div class="footer__contenedor">
         <div class="footer__social">
-          <h2 class="footer__title">¡Contáctame!</h2>
+          <h2 class="footer__title" data-aos="fade-up" data-aos-duration="1500">¡Contáctame!</h2>
           <a
             href="mailto:kamilaa.mena@gmail.com?Subject=Me%20interesa%20tu%20trabajo"
-            ><i class="far fa-envelope"> <p>Gmail</p></i></a
+            ><i class="far fa-envelope" data-aos="fade-down" data-aos-duration="1500"> <p>Gmail</p></i></a
           >
           <a
             href="https://api.whatsapp.com/send/?phone=573024647539&text&app_absent=0"
-            ><i class="fab fa-whatsapp"> <p>WhatsApp</p></i></a
+            ><i class="fab fa-whatsapp" data-aos="fade-down" data-aos-duration="1500"> <p>WhatsApp</p></i></a
           >
           <a href="https://www.facebook.com/kamila.mena.01182"
-            ><i class="fab fa-facebook-square"> <p>Facebook</p></i></a
-          >
+            ><i class="fab fa-facebook-square"> <p>Facebook</p></i></a>
         </div>
         <div class="footer__download">
-          <h2 class="footer_title">Curriculum</h2>
+          <h2 class="footer_title" data-aos="fade-up" data-aos-duration="1500">Curriculum</h2>
           <button class="footer__download-btn downloadbtn">
             <a href="#">Haz click para descargar mi curriculum</a>
           </button>
@@ -312,5 +307,9 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

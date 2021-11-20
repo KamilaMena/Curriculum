@@ -36,5 +36,8 @@
   
   .aboutme__info p {
     margin-bottom: 1em;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 30px;
   }
   
