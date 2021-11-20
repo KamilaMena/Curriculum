@@ -1,5 +1,7 @@
 /*CONTENIDO*/
 
+/*border: 15px solid; color: orange;" width="300" height="300"*/
+
 .main{
     margin: 0 auto;
     width: 80vw;
@@ -21,10 +23,15 @@
   }
   
   .info__principal{
+    line-height: 50px;
     animation: move_vector2 6s ease-in-out infinite;
   }
 
- /* @keyframes move_vector2 {
+  .info__principal p {
+    font-size: 25px;
+  }
+
+ @keyframes move_vector2 {
     0%{
       transform: translateY(2px);
     }
@@ -34,11 +41,13 @@
     100%{
       transform: translateY(2px);
     }
-  }*/
+  }
 
   .main img{
     width: 400px;
-    /*animation: move_vector 6s ease-in-out infinite;*/
+    border: 7px solid;
+    color: #012A4A;
+    animation: move_vector 6s ease-in-out infinite;
   }
 
   @keyframes move_vector {
